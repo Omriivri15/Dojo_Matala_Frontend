@@ -5,13 +5,16 @@
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "serve": "serve -s build -l 3000",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "axios": "^1.5.0"
+    "axios": "^1.5.0",
+    "serve": "^14.2.1"
   },
   "browserslist": {
     "production": [

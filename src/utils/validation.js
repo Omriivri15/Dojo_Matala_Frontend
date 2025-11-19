@@ -11,7 +11,7 @@ export const isValidEmail = (email) => {
   return true;
 };
 
-// Password validation
+
 export const isValidPassword = (password) => {
   return password && password.length >= 8;
 };
